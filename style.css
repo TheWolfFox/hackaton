@@ -1,0 +1,851 @@
+@import url('https://fonts.cdnfonts.com/css/minecraft-4');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body{
+	background-color: #171615;
+	height: 1000px;
+	margin: 0 auto;
+}
+
+header{
+	position: fixed;
+	align-items: center;
+	width: 100%;
+	height: 8%;
+	border-bottom: 1px black solid;
+	background-color: rgb(37, 37, 37, 0.9);
+	backdrop-filter: blur(5px);
+	z-index: 100;
+	box-shadow: 0px 3px 0px rgb(52, 52, 52, 0.3);
+}
+
+a{
+	text-decoration: none;
+}
+
+.header_ul{
+    display: inline-flex;
+    align-items: center;
+    position: relative;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+}
+
+.li_header_1, .li_header_2, .li_header_3, .li_header_4{
+	top: 10px;
+	color: rgba(28,28,28,0);
+}
+
+.buttons_header_1, .buttons_header_2, .buttons_header_3, .buttons_header_4, .buttons_header_5{
+	background-color: rgba(28,28,28,0);
+	border: 0px solid black;
+	cursor: pointer;
+}
+
+.buttons_header_5{
+	position: absolute;
+	left: 87%;
+	top: 37.2%;
+}
+
+.img_header{
+	width: 212px;
+	height: 35px;
+    margin: 0 auto;
+    display: block;
+    position: absolute;
+	top: 28%;
+	left: 3%;
+}
+
+.text_header_1, .text_header_2, .text_header_3, .text_header_4, .text_header_5{
+	font-family: "Montserrat", sans-serif;
+  	font-optical-sizing: auto;
+  	font-weight: 650;
+  	font-style: normal;
+	color: white;
+	font-size: 13px;
+	padding-left: 12px;
+}
+
+.text_header_5{
+	padding-left: 0px;
+
+}
+
+.arrow_down_1, .arrow_down_2, .arrow_down_3, .arrow_down_4, .arrow_down_5{
+	width: 11px;
+	height: 11px;
+}
+
+.lock{
+	width: 11px;
+	height: 11px;
+}
+
+.img_video_1, .img_video_2, .video_img{
+	position: absolute;
+	padding-top: 62px;
+	width: 100%;
+	height: 75%;
+	border-bottom: 4px #3d3938 solid;
+	object-fit: cover;
+}
+
+.body_block{
+	position: absolute;
+	background-color: #171615;
+	width: 23%;
+	left: 20%;
+	top: 73%;
+	padding-top: 20px;
+	padding-left: 30px;
+	padding-right: 50px;
+	border-top: 5px #3d3938 solid;
+}
+
+.block_button_1{
+	font-family: "Montserrat", sans-serif;
+  	font-optical-sizing: auto;
+  	font-weight: 700;
+  	font-style: normal;
+  	color: white;
+  	font-size: 15px;
+	background-color: #3b8426;
+	width: 200px;
+	height: 50px;
+	border: rgba(0, 0, 0, 0);
+	border-bottom: 6px #29651d solid;
+	border-top: 5px #519f35 solid;
+	cursor: pointer;
+}
+
+.block_img_1, .block_img_2{
+	position: absolute;
+	width: 17px;
+	height: 17px;
+}
+
+.block_p_1{
+	font-family: "Montserrat", sans-serif;
+ 	font-optical-sizing: auto;
+  	font-weight: 700;
+  	font-style: normal;
+  	font-size: 20px;
+  	color: white;
+  	
+}
+
+.block_p_2{
+	font-family: "Montserrat", sans-serif;
+ 	font-optical-sizing: auto;
+  	font-weight: 400;
+  	font-style: normal;
+  	color: white;
+}
+
+.block_button_2{
+	font-family: "Montserrat", sans-serif;
+  	font-optical-sizing: auto;
+  	font-weight: 700;
+  	font-style: normal;
+	background-color: rgba(0, 0, 0, 0);
+	border: 0px black solid;
+	color: white;
+	font-size: 16px;
+	padding-left: 15px;
+	cursor: pointer;
+}
+
+.ul_start{
+	display: inline-flex;
+	position: absolute;
+	left: 46.5%;
+	top: 83.8%;
+	color: rgba(0, 0, 0, 0);
+}
+
+.li_start_1, .li_start_2, .li_start_3{
+	width: 50px;
+	height: 50px;
+	padding-right: 85px;
+}
+
+.img_start_1, .img_start_2, .img_start_3{
+	width: 105px;
+	height: 90px;
+	border: 2px rgba(0, 0, 0, 0); solid;
+	cursor: pointer;
+	border-radius: 2px;
+
+}
+
+.img_start_1{
+	border: 2px #86d562 solid;
+}
+
+.button_start_1, .button_start_2, .button_start_3{
+	background-color: rgba(0, 0, 0, 0);
+	padding: 0px;
+	width: 105px;
+	height: 90px;
+	border: 2px rgba(0, 0, 0, 0); solid;
+}
+
+.title{
+	font-family: 'Minecraft', sans-serif;
+	position: absolute;
+	color: white;
+	font-size: 40px;
+	top: 0%;
+	left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+}
+
+.all_games{
+	position: absolute;
+	text-align: left;
+	align-items: center;
+	width: 100%;
+	top: 100%;
+	padding-top: 5%;
+}
+
+.games_ul{
+	top: 100%;
+	display: inline-flex;
+	color: rgba(0, 0, 0, 0);
+	flex-wrap: nowrap;
+}
+
+.games_img{
+	width: 100%;
+	height: 100%;
+}
+
+.games_minecraft, .games_dungeons, .games_legends, .games_education{
+	width: 100%;
+	height: 64%;
+}
+
+.li_minecraft, .li_dungeons, .li_legends, .li_education{
+	padding-left: 2%;
+	padding-right: 2%;
+}
+
+.games_h2{
+	font-family: "Montserrat", sans-serif;
+  	font-optical-sizing: auto;
+ 	font-weight: <weight>;
+  	font-style: normal;
+	color: white;
+	margin-top: 5%;
+    margin-bottom: 2%;
+}
+
+.games_p{
+	font-family: "Montserrat", sans-serif;
+  	font-optical-sizing: auto;
+ 	font-weight: <weight>;
+  	font-style: normal;
+	color: #948b88;
+	margin-top: 1%;
+    margin-bottom: 1%;
+}
+
+.games_div{
+	border-top: 2px #262423 solid;
+	margin-top: 4%;
+	margin-bottom: 2%;
+}
+
+.games_img_bottom{
+	height: 8%;
+}
+
+.redownload{
+	position: absolute;
+	width: 90%;
+	text-align: left;
+	top: 170%;
+	border: 5px white solid;
+	margin-left: 80px;
+	border-top: 4px #000000 solid;
+	border-right: 4px #000000 solid;
+	border-left: 4px #3a3735 solid;
+	border-bottom: 4px #3a3735 solid;
+}
+
+.redownload_img{
+	width: 5%;
+	height: 5%;
+	padding-left: 1.5%;
+	padding-top: 1%;
+	padding-bottom: 1%;
+}
+
+.redownload_h3{
+	position: absolute;
+	top: 5%;
+	left: 7%;
+	color: white;
+}
+
+.redownload_p{
+	position: absolute;
+	top: 5%;
+	left: 20%;
+	color: white;
+}
+
+.redownload_button{
+	position: absolute;
+	background-color: rgba(0, 0, 0, 0);
+	border: 2px white solid;
+	width: 14%;
+	height: 30%;
+	top: 35%;
+	left: 85%;
+	text-align: left;
+	align-items: center;
+}
+
+.redownload_h3{
+	font-family: "Montserrat", sans-serif;
+ 	font-optical-sizing: auto;
+  	font-weight: 700;
+  	font-style: normal;
+  	padding-left: 1%;
+}
+
+.redownload_p{
+	font-family: "Montserrat", sans-serif;
+ 	font-optical-sizing: auto;
+  	font-weight: 300;
+  	font-style: normal;
+  	padding-left: 1%;
+  	left: 7%;
+  	top: 30%;
+  	width: 58%;
+}
+
+.redownload_button_p{
+	position: absolute;
+	color: white;
+	padding-left: 5px;
+	font-family: "Roboto", sans-serif;
+  	font-weight: 700;
+  	font-style: normal;
+  	font-size: 14px;
+  	top: -16%;
+}
+
+.redownload_button_img{
+	position: absolute;
+	width: 10%;
+	height: 60%;
+	left: 89%;
+	top: 0%;
+	padding-top: 7px;
+}
+
+.trailers{
+	position: absolute;
+	top: 190%;
+	width: 100%;
+	text-align: center;
+	align-items: center;
+	align-content: center;
+}
+
+.trailers_div{
+	position: absolute;
+	top: 190%;
+	width: 62%;
+	margin-left: 33%;
+	text-align: center;
+	background-color: #3d3938;
+	border-left: 3px #2a2626 solid;
+	border-bottom: 3px #2a2626 solid;
+	border-right: 3px #646160 solid;
+	border-top: 3px #646160 solid;
+}
+
+.trailers_h1{
+	font-family: 'Minecraft', sans-serif;
+	color: white;
+	font-size: 50px;
+	font-weight: 100;
+}
+
+.trailers_p{
+	color: white;
+	font-family: "Montserrat", sans-serif;
+  	font-optical-sizing: auto;
+ 	font-weight: 500;
+  	font-style: normal;
+  	font-size: 14px;
+  	width: 75%;
+  	text-align: left;
+  	padding-left: 3%;
+  	padding-top: 1%;
+  	padding-bottom: 1%;
+}
+
+#trailers_button{
+	position: absolute;
+	top: 92%;
+	left: 80%;
+}
+
+.trailers_video{
+	padding: 3% 3% 0% 3%;
+}
+
+.trailers_div_2{
+	display: flex;
+	justify-content: center;
+	width: 100%;
+	height: 100%;
+}
+
+.trailers_minecraft, .trailers_dungeons, .trailers_legends, .trailers_education{
+	position: absolute;
+	background-color: #262423;
+	border-bottom: 3px black solid;
+	border-left: 3px #2b2827 solid;
+	border-top: 3px #646160 solid;
+	top: 190%;
+	width: 27%;
+	height: 80%;
+	left: 6%;
+	cursor: pointer;
+}
+
+.trailers_minecraft{
+	background-color: #3d3938;
+	border-bottom: 4px black solid;
+	border-left: 3px #2b2827 solid;
+	border-top: 3px #646160 solid;
+	z-index: 1;
+}
+
+.trailers_dungeons{
+	position: absolute;
+	top: 275%;
+}
+
+.trailers_legends{
+	position: absolute;
+	top: 360%;
+}
+
+.trailers_education{
+	position: absolute;
+	top: 445%;
+}
+
+.trailers_minecraft_img, .trailers_dungeons_img, .trailers_legends_img, .trailers_education_img{
+	position: absolute;
+	width: 11.7%;
+	height: 60%;
+	top: 20%;
+	left: 5%;
+}
+
+.trailers_minecraft_img{
+	border: 2px #3d3938 solid;
+	outline: 2px white solid;
+}
+
+.trailers_minecraft_p, .trailers_dungeons_p, .trailers_legends_p, .trailers_education_p{
+	position: absolute;
+	font-family: "Montserrat", sans-serif;
+  	font-optical-sizing: auto;
+ 	font-weight: 450;
+  	font-style: normal;
+	font-size: 25px;
+	font-weight: 0;
+	padding-left: 25%;
+	top: 8%;
+	color: #d0c5c0;
+}
+
+.trailers_button_2{
+	position: absolute;
+	background-color: #151413;
+	border: 0px black solid;
+	width: 25%;
+	height: 5%;
+	top: 84.6%;
+	left: 72.1%;
+	cursor: pointer;
+}
+
+.trailers_span{
+	position: absolute;
+	font-family: "Montserrat", sans-serif;
+  	font-optical-sizing: auto;
+ 	font-weight: 400;
+  	font-style: normal;
+  	letter-spacing: -1px;
+  	word-spacing: 0px;
+  	font-size: 20px;
+	color: white;
+	left: 10%;
+	top: 23%;
+}
+
+.trailers_img{
+	position: absolute;
+	left: 88%;
+	top: 28%;
+	width: 20px;
+	height: 20px;
+}
+
+.news{
+	width: 100%;
+	height: 22%;
+	background-color: #262423;
+	position: absolute;
+	top: 310%;
+	align-items: center;
+	display: flex;
+	justify-content: center;
+}
+
+.news_h1{
+	font-family: 'Minecraft', sans-serif;
+	color: white;
+	position: absolute;
+	top: 10%;
+	left: 40%;
+	font-size: 350%;
+}
+
+.news_p{
+	inset: none;
+	color: #6cc349;
+	font-family: "Montserrat", sans-serif;
+  	font-optical-sizing: auto;
+ 	font-weight: 500;
+  	font-style: normal;
+  	font-size: 20px;
+  	letter-spacing: -1px;
+  	padding-top: 60%;
+}
+
+.news_img{
+	padding-left: 5px;
+	position: absolute;
+	width: 20px;
+	height: 20px;
+	top: 72%;
+	left: 55%;
+}
+
+.new{
+	position: absolute;
+	display: flex;
+	top: 335%;
+	left: 0%;
+	width: 100%;
+	height: 30%;
+	padding-top: -100px;
+}
+
+.new_h1{
+	font-family: 'Minecraft', sans-serif;
+	color: white;
+	position: absolute;
+	top: 10%;
+	left: 55%;
+	font-size: 350%;
+}
+
+.new_p{
+	position: absolute;
+	inset: none;
+	color: white;
+	font-family: "Montserrat", sans-serif;
+  	font-optical-sizing: auto;
+ 	font-weight: 500;
+  	font-style: normal;
+  	font-size: 20px;
+  	padding-top: 0%;
+  	top: 45%;
+  	left: 55%;
+  	width: 30%;
+}
+
+#new_button{
+	position: absolute;
+	top: 85%;
+	left: 55%;
+}
+
+.new_img{
+	position: absolute;
+	padding-left: 10%;
+	height: 200%;
+	width: 45%;
+}
+
+.collectibles{
+	position: absolute;
+	justify-content: center;
+	display: flex;
+	top: 400%;
+	height: 40%;
+	width: 100%;
+	background-color: black;
+}
+
+.collectibles_h1{
+	position: absolute;
+	font-family: 'Minecraft', sans-serif;
+	letter-spacing: 1px;
+	font-weight: 600;
+	font-size: 300%;
+	color: white;
+}
+
+.collectibles_p_1{
+	position: absolute;
+	font-family: "Montserrat", sans-serif;
+  	font-optical-sizing: auto;
+ 	font-weight: 500;
+  	font-style: normal;
+	color: white;
+	top: 24%;
+	width: 30%;
+	text-align: center;
+}
+
+.collectibles_p_2{
+	position: absolute;
+	font-family: "Montserrat", sans-serif;
+  	font-optical-sizing: auto;
+ 	font-weight: 800;
+  	font-style: normal;
+	color: green;
+	top: 45%;
+	left: 43%;
+	z-index: 1;
+}
+
+.collectibles_p_2:hover{
+	text-decoration: underline white;
+	color: white;
+}
+
+.collectibles_img{
+	position: absolute;
+	width: 20px;
+	height: 20px;
+	top: 49.1%;
+	left: 55.3%;
+}
+
+.social{
+	position: absolute;
+	display: flex;
+	justify-content: center;
+	width: 100%;
+	top: -5%;
+}
+
+.social_h1{
+	font-family: "Montserrat", sans-serif;
+  	font-optical-sizing: auto;
+ 	font-weight: 600;
+  	font-style: normal;
+  	font-size: 20px;
+	color: white;
+	position: absolute;
+	padding-top: 15%;
+	top: 330%;
+}
+
+.social_ul{
+	position: absolute;
+	top: 200%;
+	color: rgba(0, 0, 0, 0);
+	display: inline-flex;
+	padding-top: 17%;
+	left: 38%;
+}
+
+.social_img_1, .social_img_2, .social_img_3, .social_img_4, .social_img_5{
+	width: 50px;
+	height: 50px;
+	padding-left: 20px;
+	cursor: pointer;
+}
+
+.footer_1{
+	font-family: "Montserrat", sans-serif;
+  	font-optical-sizing: auto;
+ 	font-weight: 400;
+  	font-style: normal;
+	position: absolute;
+	display: flex;
+	align-items: center;
+	background-color: #111111;
+	top: 440%;
+	height: 47%;
+	width: 100%;
+}
+
+.footer_1_img_1, .footer_1_img_2, .footer_1_img_3{
+	position: absolute;
+}
+
+.footer_1_img_1{
+	width: 7%;
+	height: 24%;
+	top: 10%;
+	left: 15%;
+}
+
+.footer_1_img_2{
+	width: 10%;
+	height: 23%;
+	left: 25%;
+	top: 10%;
+}
+
+.footer_1_img_3{
+	width: 40%;
+	height: 35%;
+	left: 60%;
+	top: 14.4%;
+	z-index: 0;
+}
+
+.footer_1_p{
+	position: absolute;
+	color: #d1cfce;
+	font-size: 12px;
+	left: 15%;
+	top: 40%;
+}
+
+.footer_1_a{
+	position: absolute;
+	font-size: 13px;
+	color: #a0e081;
+	left: 15%;
+	top: 45;
+}
+
+.footer_1_a:hover{
+	text-decoration: underline #a0e081;
+}
+
+.footer_1_ul_1, .footer_1_ul_2, .footer_1_ul_3, .footer_1_ul_4, .footer_1_ul_5{
+	position: absolute;
+	color: white;
+	list-style-type: none;
+	z-index: 1;
+}
+
+.footer_1_ul_1{
+	top: 10%;
+	left: 43.5%;
+}
+
+.footer_1_ul_2{
+	top: 40%;
+	left: 43.5%;
+}
+
+.footer_1_ul_3{
+	top: 10%;
+	left: 60%;
+}
+
+.footer_1_ul_4{
+	top: 29%;
+	left: 60%;
+}
+
+.footer_1_ul_5{
+	top: 67%;
+	left: 60%;
+}
+
+.footer_1_ul_title{
+  	font-size: 20px;
+	color: white;
+}
+
+.footer_1_ul_text{
+	padding-top: 5%;
+  	font-size: 13px;
+	color: #a0e081;
+	cursor: pointer;
+}
+
+.footer_1_ul_text:hover{
+	text-decoration: underline #a0e081;
+}
+
+.footer_2{
+	position: absolute;
+	top: 487%;
+	width: 100%;
+	height: 10%;
+	background-color: #313131;
+}
+
+.footer_2_button{
+	font-family: "Montserrat", sans-serif;
+  	font-optical-sizing: auto;
+ 	font-weight: 600;
+  	font-style: normal;
+  	color: white;
+	position: absolute;
+	background-color: rgba(0, 0, 0, 0);
+	border: none;
+	display: inline-flex;
+	top: 30%;
+	left: 12%;
+}
+
+.footer_2_img_1{
+	width: 25px;
+	height: 25px;
+	rotate: 45deg;
+	padding-top: 10px;
+}
+
+.footer_2_img_3{
+	position: absolute;
+	top: 37%;
+	left: 80%;
+}
+
+.footer_2_ul{
+	position: absolute;
+	list-style-type: none;
+	display: inline-flex;
+	left: 33%;
+	top: 30%;
+}
+
+.footer_2_li, .footer_2_li_1{
+	padding-right: 15px;
+	color: #f8f5f4;
+}
+
+.footer_2_li:hover{
+	text-decoration: underline #f8f5f4;
+}
